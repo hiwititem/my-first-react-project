@@ -1,14 +1,15 @@
-import flag from "../images/icons/16.png"
+import Imge from "../images/icons/16.png"
+
 
  function Footer() {
   return (
-    <footer className="footer-wrapper">
-			<div className="internal-wrapper"> 
-				<div className="upper-text-container">
+   <footer class="footer-wrapper">
+			<div class="internal-wrapper"> 
+				<div class="upper-text-container">
 					1. Trade In: Trade‑in values vary. iPhone 11 and iPhone 11 Pro promotional pricing is after trade‑in of iPhone 8 Plus and iPhone X in good condition. Additional trade‑in values require purchase of a new iPhone, subject to availability and limits. Must be at least 18. Apple or its trade-in partners reserve the right to refuse or limit any Trade In transaction for any reason. In‑store trade‑in requires presentation of a valid, government-issued photo ID (local law may require saving this information). Sales tax may be assessed on full value of new iPhone. Additional terms from Apple or Apple’s trade-in partners may apply. Monthly pricing: Available to qualified customers and requires 0% APR, 24‑month installment loan with Citizens One, and iPhone activation with AT&T, Sprint, T‑Mobile, or Verizon. <a href="#"> Full terms apply</a>.
 				</div>
-				<div className="footer-links-wrapper"> 
-					<div className="links-wrapper-1">
+				<div class="footer-links-wrapper"> 
+					<div class="links-wrapper-1">
 						<h3>Shop and Learn</h3>
 						<ul>
 							<li><a href="#">Mac</a></li>
@@ -17,14 +18,14 @@ import flag from "../images/icons/16.png"
 							<li><a href="#">Watch</a></li>
 							<li><a href="#">TV</a></li>
 							<li><a href="#">Music</a></li>
-							<li><a href="#">AirPods</a></li>55
+							<li><a href="#">AirPods</a></li>
 							<li><a href="#">HomePod</a></li>
 							<li><a href="#">iPod touch</a></li>
 							<li><a href="#">Accessories</a></li>
 							<li><a href="#">Gift Cards</a></li>
 						</ul>
 					</div> 
-					<div className="links-wrapper-2">
+					<div class="links-wrapper-2">
 						<h3>Services</h3>
 						<ul>
 							<li><a href="#">Apple Music</a></li>
@@ -41,7 +42,7 @@ import flag from "../images/icons/16.png"
 							<li><a href="#">iCloud.com</a></li>
 						</ul>					
 					</div> 
-					<div className="links-wrapper-3">
+					<div class="links-wrapper-3">
 						<h3>Apple Store</h3>
 						<ul>
 							<li><a href="#">Find a Store</a></li>
@@ -57,7 +58,7 @@ import flag from "../images/icons/16.png"
 							<li><a href="#">Shopping Help</a></li>
 						</ul>
 					</div> 
-					<div className="links-wrapper-4">
+					<div class="links-wrapper-4">
 						<h3>For Business</h3>
 						<ul>
 							<li><a href="#">Apple and Business</a></li>
@@ -81,7 +82,7 @@ import flag from "../images/icons/16.png"
 						</ul>
 					</div> 
 
-					<div className="links-wrapper-5">
+					<div class="links-wrapper-5">
 						<h3>Apple Values</h3>
 						<ul>
 							<li><a href="#">Find a Store</a></li>
@@ -102,14 +103,14 @@ import flag from "../images/icons/16.png"
 						</ul>						
 					</div> 
 				</div>
-				<div className="my-apple-wrapper"> 
+				<div class="my-apple-wrapper"> 
 					More ways to shop: <a href="#">Find an Apple Store</a> or <a href="#">other retailer</a> near you. Or call 1-800-MY-APPLE.
 				</div>
-				<div className="copyright-wrapper">
-					<div className="copyright">
+				<div class="copyright-wrapper">
+					<div class="copyright">
 						Copyright © 2019 Apple Inc. All rights reserved.
 					</div>
-					<div className="footer-links-terms">
+					<div class="footer-links-terms">
 						<ul>
 							<li><a href="#">Privacy Policy</a></li>
 							<li><a href="#">Terms of Use</a></li>
@@ -118,8 +119,8 @@ import flag from "../images/icons/16.png"
 							<li><a href="#">Site Map</a></li>
 						</ul>
 					</div>
-					<div className="footer-country">
-						<div className="flag-wrapper"><img src={flag}/></div> <div className="footer-country-name">United States</div> 
+					<div class="footer-country">
+						<div class="flag-wrapper"><img src={Imge}/></div> <div class="footer-country-name">United States</div> 
 					</div>
 				</div>
 			</div>
